@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        light: '#D9D9D9',
+        dark: '#121515',
+      },
+      fontFamily: {
+        LeagueSpartan: `'League Spartan', sans-serif`,
+      }
+    },
   },
   plugins: [],
 }

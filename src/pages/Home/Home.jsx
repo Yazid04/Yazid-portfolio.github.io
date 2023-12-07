@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Navbar from "../../Shared/Navbar";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <Navbar />
+      <div className="text-[white]">Home</div>
+    </>
+  );
+};
 
-export default Home
+export default Home;
