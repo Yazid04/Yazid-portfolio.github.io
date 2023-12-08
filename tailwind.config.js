@@ -7,6 +7,10 @@ module.exports = {
         light: '#D9D9D9',
         dark: '#121515',
       },
+      backgroundColor:{
+        light: '#D9D9D9',
+        dark: '#121515',
+      },
       fontFamily: {
         LeagueSpartan: `'League Spartan', sans-serif`,
       }
