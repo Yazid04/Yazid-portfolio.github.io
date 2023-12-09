@@ -20,7 +20,7 @@ const Hero = () => {
   return (
     <animated.div style={fadeIn} className="relative w-full h-[81vh] bg-light font-LeagueSpartan text-dark mt-28 overflow-hidden md:bg-dark md:text-light">
       <div className="hidden md:block absolute -bottom-36 left-0 w-[200rem] h-48 bg-light transform origin-bottom-left -rotate-6"></div>
-      <div style={styles} className="hidden md:grid bg-dark w-96 h-20 place-content-center text-light absolute bottom-[5%] lg:bottom-[10%] right-[5%] translate-y-5 z-20 ">
+      <div style={styles} className="hidden md:grid bg-dark w-96 h-20 place-content-center text-light absolute bottom-[5%] lg:bottom-[1%] right-[5%] translate-y-[1%] z-20 ">
         <p>I'm interested in Coding & Astronomy</p>
         <p>🌌 & 💻 all the way!</p>
       </div>
