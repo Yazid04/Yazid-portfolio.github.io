@@ -2,10 +2,10 @@
 <g filter="url(#filter0_i_29_16)">
 <circle cx="202.5" cy="202.5" r="202.5" fill="white"/>
 </g>
-<rect x="198" y="207" width="20" height="195" fill="#121515"/>
+<rect x="198" y="200" width="20" height="205" fill="#121515"/>
 <rect x="94.5123" y="47.5923" width="20" height="195" transform="rotate(-33.1393 94.5123 47.5923)" fill="#121515"/>
 <rect x="140" y="60.4668" width="20" height="150" transform="rotate(-33.1393 130 60.4668)" fill="#121515"/>
-<rect x="306.598" y="10" width="20" height="180" transform="rotate(31.9191 306.598 30.231)" fill="#121515"/>
+<rect x="306.598" y="20" width="20" height="180" transform="rotate(31.9191 306.598 30.231)" fill="#121515"/>
 <defs>
 <filter id="filter0_i_29_16" x="0" y="0" width="405" height="409" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
