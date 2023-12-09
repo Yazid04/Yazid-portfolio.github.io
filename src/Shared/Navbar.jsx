@@ -4,7 +4,7 @@ import logo from '../Static/logo.svg'
 
 const Navbar = () => {
   return (
-    <section className="h-28 w-full fixed z-20 shadow-md top-0 bg-dark md:h-20">
+    <section className="h-28 w-full fixed z-40 shadow-md top-0 bg-dark md:h-20">
       <main className="h-full w-full overflow-hidden px-7 shadow-xl text-light text font-LeagueSpartan flex justify-between items-center max-w-6xl mx-auto">
      
         <div className="h-full w-full overflow-hidden flex items-center flex-1">
