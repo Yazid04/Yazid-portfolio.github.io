@@ -31,7 +31,7 @@ const Projects = () => {
   return (
     <section className="w-full h-min text-light font-LeagueSpartan">
       <div className="w-11/12 mx-auto p-10 grid place-content-center">
-        <h2 className="text-4xl">My projects</h2>
+        <h2 className="text-4xl">My Work</h2>
       </div>
       {projects.map(project => {
         const { title, description, image, id } = project;
