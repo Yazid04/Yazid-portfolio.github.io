@@ -30,8 +30,8 @@ const Projects = () => {
 
   return (
     <section className="w-full h-min text-light font-LeagueSpartan">
-      <div className="w-11/12 mx-auto p-10 grid place-content-center">
-        <h2 className="text-4xl">My Work</h2>
+      <div className="w-full p-10 grid place-content-center" style={{borderBottom: '5px solid grey'}}>
+        <h2 className="text-4xl w-full max-w-5xl mx-auto">My Work</h2>
       </div>
       {projects.map(project => {
         const { title, description, image, id } = project;
