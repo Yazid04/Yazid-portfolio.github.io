@@ -3,6 +3,7 @@ import Navbar from "../../Shared/Navbar";
 import Hero from "./Hero";
 import Projects from "./Projects";
 import AboutMe from './AboutMe'
+import Skills from './Skills'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Navbar />
       <Hero />
      <Projects />
+     <Skills />
      <AboutMe />
     </>
   );
