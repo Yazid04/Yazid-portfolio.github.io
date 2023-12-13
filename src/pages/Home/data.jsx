@@ -8,9 +8,38 @@ import FilmFlix7 from "../../Static/FilmFlix7.png";
 import FilmFlix8 from "../../Static/FilmFlix8.png";
 import FilmFlix9 from "../../Static/FilmFlix9.png";
 
+
+import HealthfulPlate1 from "../../Static/HealthfulPlate1.png";
+import HealthfulPlate2 from "../../Static/HealthfulPlate2.png";
+import HealthfulPlate3 from "../../Static/HealthfulPlate3.png";
+import HealthfulPlate4 from "../../Static/HealthfulPlate4.png";
+import HealthfulPlate5 from "../../Static/HealthfulPlate5.png";
+import HealthfulPlate6 from "../../Static/HealthfulPlate6.png";
+
+
+
+import cosmoquest1 from "../../Static/cosmoquest1.png";
+import cosmoquest2 from "../../Static/cosmoquest2.png";
+import cosmoquest3 from "../../Static/cosmoquest3.png";
+import cosmoquest4 from "../../Static/cosmoquest4.png";
+import cosmoquest5 from "../../Static/cosmoquest5.png";
+import cosmoquest6 from "../../Static/cosmoquest6.png";
+import cosmoquest7 from "../../Static/cosmoquest7.png";
+import cosmoquest8 from "../../Static/cosmoquest8.png";
+import cosmoquest9 from "../../Static/cosmoquest9.png";
+import cosmoquest10 from "../../Static/cosmoquest10.png";
+import cosmoquest11 from "../../Static/cosmoquest11.png";
+import cosmoquest12 from "../../Static/cosmoquest12.png";
+
+
+
+
 const data = [
   {
+    id: '01',
     title: "FilmFlix",
+    describtion: 'FilmFlix is a responsive React app that allows users to search for movies and TV shows, filter by genre and/or media type, view details about specific titles, toggle between a dark and light theme, and more!',
+    projectLink: 'https://github.com/Yazid04/FilmFlix',
     imgs: [
       {
         id: "01",
@@ -51,43 +80,90 @@ const data = [
     ],
   },
   {
-    title: "FilmFlix",
+    id: '02',
+    title: "HealthfulPlate",
+    describtion: 'HealthfulPlate is a vibrant, easy-to-use React website that combines nutrition and health. Users can search their favorite meals, get nutritional facts, and access a comprehensive weight calculator!',
+    projectLink: 'https://github.com/Yazid04/HealthfulPlate',
     imgs: [
       {
         id: "01",
-        img: FilmFlix1,
+        img: HealthfulPlate1,
       },
       {
         id: "02",
-        img: FilmFlix2,
+        img: HealthfulPlate2,
       },
       {
         id: "03",
-        img: FilmFlix3,
+        img: HealthfulPlate3,
       },
       {
         id: "04",
-        img: FilmFlix4,
+        img: HealthfulPlate4,
       },
       {
         id: "05",
-        img: FilmFlix5,
+        img: HealthfulPlate5,
       },
       {
         id: "06",
-        img: FilmFlix6,
+        img: HealthfulPlate6,
+      },
+    ],
+  },
+  {
+    id: '03',
+    title: "CosmoQuest",
+    describtion: 'CosmoQuest is a virtual space museum platform where users can explore diverse topics such as Black Holes, Exoplanets, galaxies, and nebulae. The platform features rich scientific content, captivating image carousels, and nearly a dozen informative pages!',
+    projectLink: 'https://github.com/Yazid04/cosmoquest',
+    imgs: [
+      {
+        id: "01",
+        img: cosmoquest1,
+      },
+      {
+        id: "02",
+        img: cosmoquest2,
+      },
+      {
+        id: "03",
+        img: cosmoquest3,
+      },
+      {
+        id: "04",
+        img: cosmoquest4,
+      },
+      {
+        id: "05",
+        img: cosmoquest5,
+      },
+      {
+        id: "06",
+        img: cosmoquest6,
       },
       {
         id: "07",
-        img: FilmFlix7,
+        img: cosmoquest7,
       },
       {
         id: "08",
-        img: FilmFlix8,
+        img: cosmoquest8,
       },
       {
         id: "09",
-        img: FilmFlix9,
+        img: cosmoquest9,
+      },
+      {
+        id: "10",
+        img: cosmoquest10,
+      },
+      {
+        id: "11",
+        img: cosmoquest11,
+      },
+      {
+        id: "12",
+        img: cosmoquest12,
       },
     ],
   },
