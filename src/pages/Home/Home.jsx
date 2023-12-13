@@ -22,9 +22,3 @@ const Home = () => {
 };
 
 export default Home;
-
-// work on resonsivness - DONE
-// add a "let's chat" mini-section after the "AboutMe" section - DONE
-// add real-time data to the projects section - DONE
-// add a page for contacts and link all the button to it - DONE 
-// fix the copy & paste mechanism in mobile - DONE
