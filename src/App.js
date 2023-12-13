@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Error from "./pages/Error/Error";
 import { useEffect } from "react";
+import Contact from "./pages/Contact";
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
   return (
     <Routes>
       <Route exact path="/" element={<Home />} />
-      <Route path="/About" element={<About />} />
+      <Route path="/Contact" element={<Contact />} />
       <Route path="*" element={<Error />} />
     </Routes>
   );

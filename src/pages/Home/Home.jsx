@@ -4,9 +4,11 @@ import Hero from "./Hero";
 import Projects from "./Projects";
 import AboutMe from './AboutMe'
 import Skills from './Skills'
-import Footer from './Footer'
+import Footer from '../../Shared/Footer'
 
 const Home = () => {
+
+
   return (
     <>
       <Navbar />
@@ -21,7 +23,8 @@ const Home = () => {
 
 export default Home;
 
-// work on resonsivness
-// add a "let's chat" mini-section after the "AboutMe" section
-// add the data to the projects
-// add the links to the navbar
+// work on resonsivness - DONE
+// add a "let's chat" mini-section after the "AboutMe" section - DONE
+// add real-time data to the projects section - 
+// add a page for contacts and link all the button to it - DONE 
+// fix the copy & paste mechanism in mobile - DONE

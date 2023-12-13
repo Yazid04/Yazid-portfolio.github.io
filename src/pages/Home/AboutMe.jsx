@@ -1,16 +1,29 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import profilePic from "../../Static/profilePic.jpeg";
 import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { IoChatboxEllipses } from "react-icons/io5";
+import { usePagesContext } from "../context";
+
 
 const AboutMe = () => {
+  const {setAboutSectionPosition} = usePagesContext();
+  
+  const aboutSectionRef = useRef();
+  useEffect(() =>{
+     const element = aboutSectionRef.current;
+     const position = element.getBoundingClientRect().top;
+     setAboutSectionPosition(position);
+  },[setAboutSectionPosition])
+
+
   return (
-    <section className="w-full font-LeagueSpartan text-light py-20">
+    <section ref={aboutSectionRef} className="w-full font-LeagueSpartan text-light py-20">
       <div className="w-full max-w-6xl mx-auto px-10">
         <div className="mb-10">
           <h1 className="text-4xl">About Me</h1>
         </div>
-        <div className="flex flex-col gap-5 md:flex-row md:items-start md:justify-evenly md:h-48">
+        <div className="flex flex-col gap-5 md:flex-row md:items-start md:justify-evenly md:h-64 lg:h-52">
           <div className="h-full flex-[15%] bg-[green] max-w-xs max-h-80 overflow-hidden">
             <img
               src={profilePic}
@@ -30,13 +43,18 @@ const AboutMe = () => {
               Though I knew the answers to those questions as I got older and
               read about them, the fascination remains unshaken!
             </p>
-            <div>
+             <div className="flex items-center flex-wrap gap-5 overflow-hidden">
               <Link
                 to={"https://github.com/Yazid04/Yazid04"}
                 className="flex justify-between items-center w-44 cursor-pointer p-2 rounded-sm bg-light text-dark"
               >
                 Continue Reading
                 <FaGithub />
+              </Link>
+              <Link to={'/Contact'}
+                className="flex justify-between items-center w-44 cursor-pointer p-2 rounded-sm bg-light text-dark">
+                Let's Chat
+                <IoChatboxEllipses />
               </Link>
             </div>
           </div>

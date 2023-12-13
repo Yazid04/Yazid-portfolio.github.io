@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useRef } from "react";
 import codingImg from "../../Static/codingImg.png";
 import { useSpring, animated } from "react-spring";
+import { Link } from "react-router-dom";
 
 
 const Hero = () => {
@@ -15,6 +16,17 @@ const Hero = () => {
     from: { opacity: 0 },
     config: { duration: 1500 },
   });
+
+  const arrowRef = useRef(null);
+
+  const moveArrow = () => {
+    const element = arrowRef.current;
+    element.style.paddingLeft = '2rem'
+  }
+  const returnArrow = () => {
+    const element = arrowRef.current;
+    element.style.paddingLeft = '0.75rem'
+  }
 
 
   return (
@@ -39,9 +51,10 @@ const Hero = () => {
               the way.
             </p>
           </div>
-          <button className="w-40 h-14 grid place-content-center rounded-md bg-dark text-light md:bg-light md:text-dark md:h-12 md:w-44">
-            Lets work together!
-          </button>
+          <Link to={'/Contact'} onMouseOver={moveArrow} onMouseLeave={returnArrow} className="w-[21rem] h-min text-sm max-w-full text-start px-2 py-2 rounded-md bg-dark text-light md:bg-light md:text-dark">
+            No Nonsense. Just a really good developer
+            <span ref={arrowRef} className="pl-3 transition-all font-extrabold text-xl">&#8594;</span>
+          </Link>
         </div>
 
         <div className="flex-1 overflow-hidden hidden h-min md:flex md:justify-end md:items-center">
