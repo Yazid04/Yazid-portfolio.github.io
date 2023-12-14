@@ -34,7 +34,6 @@ FilmFlix is a responsive React app that allows users to search for movies and TV
 ### Project 3: [HealthfulPlate](https://github.com/Yazid04/HealthfulPlate)
 HealthfulPlate is a vibrant, easy-to-use React website that combines nutrition and health. Users can search their favorite meals, get nutritional facts, and access a comprehensive weight calculator!
 
-Feel free to explore more projects on my [GitHub profile](https://github.com/Yazid04).
 
 ## Contact
 - GitHub: [My GitHub profile](https://github.com/Yazid04)
