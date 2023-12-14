@@ -1,4 +1,4 @@
-# Developer Portfolio
+&nbsp; <h1> ![Yazid Mo](https://user-images.githubusercontent.com/66242307/208242631-4207b764-eb4e-4202-a4ee-5ef95d75b9df.png)</h1>
 
 Welcome to my portfolio! In this repository, you can find my skills, projects, and know me personally.
 
