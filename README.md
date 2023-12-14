@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio! In this repository, you can find my skills, projects, and know me personally.
 
-## Available Scripts
+## Table of Contents
+- [About Me](#about-me)
+- [Skills](#skills)
+- [Projects](#projects)
+- [Contact](#contact)
 
-In the project directory, you can run:
+## About Me
+![CosmoQuest images](./src/Static/profilePic.jpeg)  
 
-### `npm start`
+Hi! I'm Yazid, a passionate web developer. My skills help create
+modern and business-growing software using cutting-edge
+technologies and best practices. Developing efficient and reliable
+software is my top priority. My goal is to work in a place where I
+can deliver business value while also improving my skills along the way.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Skills
+- Programming Languages: JavaScript, and Python
+- Frontend Technologies: HTML, CSS, React, and several CSS frameworks
+- Backend Technologies: Node.js, Express
+- Database: SQL
+- Version Control: Git, GitHub
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Projects
+### Project 1: [CosmoQuest](https://github.com/Yazid04/cosmoquest)
+CosmoQuest is a virtual space museum platform that allow users to explore several topics. The platform is rich with Science, has beautiful carousels of images, and near a dozen pages!
 
-### `npm test`
+### Project 2: [FilmFlix](https://github.com/Yazid04/FilmFlix)
+FilmFlix is a responsive React app that allows users to search for movies and TV shows, filter by genre and/or media type, view details about specific titles, toggle between a dark and light theme, and more!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Project 3: [HealthfulPlate](https://github.com/Yazid04/HealthfulPlate)
+HealthfulPlate is a vibrant, easy-to-use React website that combines nutrition and health. Users can search their favorite meals, get nutritional facts, and access a comprehensive weight calculator!
 
-### `npm run build`
+Feel free to explore more projects on my [GitHub profile](https://github.com/Yazid04).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contact
+- GitHub: [My GitHub profile](https://github.com/Yazid04)
+- LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/yazid-mohammed-9a45a1219/)
+- Email: yazidramadan04@gmail.com
+- X (A.K.A Twitter): [My X account](https://twitter.com/Yazid__Mo)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Feel free to reach out to discuss collaboration, job opportunities, or just to say hi!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for visiting my portfolio. I look forward to connecting with you!  
+***Made with 💛 by [@Yazid04](https://github.com/Yazid04)***
