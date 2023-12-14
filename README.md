@@ -41,6 +41,7 @@ Feel free to explore more projects on my [GitHub profile](https://github.com/Yaz
 - LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/yazid-mohammed-9a45a1219/)
 - Email: yazidramadan04@gmail.com
 - X (A.K.A Twitter): [My X account](https://twitter.com/Yazid__Mo)
+- Whatsapp - +6281325885795
 
 Feel free to reach out to discuss collaboration, job opportunities, or just to say hi!
 
