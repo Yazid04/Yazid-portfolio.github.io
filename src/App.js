@@ -1,7 +1,6 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
-import About from "./pages/About/About";
 import Error from "./pages/Error/Error";
 import { useEffect } from "react";
 import Contact from "./pages/Contact";
