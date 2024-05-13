@@ -28,11 +28,12 @@ const Projects = () => {
       {data.map((project, idx) => {
         return (
           <Slider
-          key={project.id}
+            key={project.id}
             title={project.title}
             data={project.imgs}
             idx={idx}
-            projectLink={project.projectLink}
+            githubLink={project.githubLink}
+            liveSiteLink={project.liveSiteLink}
             describtion={project.describtion}
           />
         );

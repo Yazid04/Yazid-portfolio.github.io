@@ -39,7 +39,8 @@ const data = [
     id: '01',
     title: "FilmFlix",
     describtion: 'FilmFlix is a responsive React app that allows users to search for movies and TV shows, filter by genre and/or media type, view details about specific titles, toggle between a dark and light theme, and more!',
-    projectLink: 'https://github.com/Yazid04/FilmFlix',
+    githubLink: 'https://github.com/Yazid04/FilmFlix',
+    liveSiteLink: 'https://filmflix-e1psxpd9m-yazids-projects-f660495c.vercel.app/',
     imgs: [
       {
         id: "01",
@@ -83,7 +84,8 @@ const data = [
     id: '02',
     title: "HealthfulPlate",
     describtion: 'HealthfulPlate is a vibrant, easy-to-use React website that combines nutrition and health. Users can search their favorite meals, get nutritional facts, and access a comprehensive weight calculator!',
-    projectLink: 'https://github.com/Yazid04/HealthfulPlate',
+    githubLink: 'https://github.com/Yazid04/HealthfulPlate',
+    liveSiteLink: 'https://healthful-plate-6ozy9ztg3-yazids-projects-f660495c.vercel.app',
     imgs: [
       {
         id: "01",
@@ -115,7 +117,8 @@ const data = [
     id: '03',
     title: "CosmoQuest",
     describtion: 'CosmoQuest is a virtual space museum platform where users can explore diverse topics such as Black Holes, Exoplanets, galaxies, and nebulae. The platform features rich scientific content, captivating image carousels, and nearly a dozen informative pages!',
-    projectLink: 'https://github.com/Yazid04/cosmoquest',
+    githubLink: 'https://github.com/Yazid04/cosmoquest',
+    liveSiteLink: 'https://cosmoquest-pzfagpauo-yazids-projects-f660495c.vercel.app/',
     imgs: [
       {
         id: "01",

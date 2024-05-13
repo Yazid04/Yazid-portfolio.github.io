@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
-function Slider({ title, data, idx, projectLink, describtion }) {
+function Slider({ title, data, idx, githubLink, describtion, liveSiteLink }) {
   const obj = useState(data);
   const items = obj[0];
   const [index, setIndex] = useState(0);
@@ -33,13 +33,21 @@ function Slider({ title, data, idx, projectLink, describtion }) {
               <p className="text-lg md:text-lg overflow-hidden">
                 {describtion}
               </p>
-              <div className="w-full flex justify-center md:justify-start">
+              <div className="w-full gap-x-5 flex justify-center md:justify-start">
+              
               <Link
-                to={projectLink}
+                to={githubLink}
                 className="bg-light overflow-hidden text-dark w-28 grid place-content-center rounded-md py-1"
                 >
-                Read More!
+                Github 
               </Link>
+              <Link target="_blank" rel="noopener noreferrer"
+                to={liveSiteLink}
+                className="bg-light overflow-hidden text-dark w-28 grid place-content-center rounded-md py-1"
+                >
+                • Live site 
+              </Link>
+
               </div>
             </div>
 
@@ -148,13 +156,19 @@ function Slider({ title, data, idx, projectLink, describtion }) {
               <p className="text-lg md:text-lg overflow-hidden">
                {describtion}
               </p>
-              <div className="w-full flex justify-center">
+              <div className="w-full flex gap-x-5 justify-center">
                 <Link
-                  to={projectLink}
+                  to={githubLink}
                   className="bg-ligh overflow-hidden bg-light text-dark w-28 grid place-content-center rounded-md py-1"
                 >
-                  Read More!
+                  Github
                 </Link>
+                <Link target="_blank" rel="noopener noreferrer"
+                to={liveSiteLink}
+                className="bg-light overflow-hidden text-dark w-28 grid place-content-center rounded-md py-1"
+                >
+                • Live site 
+              </Link>
               </div>
             </div>
           </>
