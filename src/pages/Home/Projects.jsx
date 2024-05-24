@@ -17,7 +17,7 @@ const Projects = () => {
   return (
     <section
       ref={projectsSectionRef}
-      className="w-full h-min text-light font-LeagueSpartan"
+      className="w-full h-min text-light font-LeagueSpartan bg-dark"
     >
       <div
         className="w-full p-10 grid place-content-center"

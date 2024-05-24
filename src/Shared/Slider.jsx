@@ -23,31 +23,34 @@ function Slider({ title, data, idx, githubLink, describtion, liveSiteLink }) {
   }, [index, items.length]);
 
   return (
-    // 37vw
-    <section className="project w-full h-min py-5 md:p-0">
+    <section className="project w-full h-min py-5 md:p-0 bg-dark">
       <div className="w-full px-10 text-center h-min max-w-5xl mx-auto flex flex-col gap-5 justify-evenly items-center md:flex-row md:text-start md:h-[30rem]">
         {idx % 2 === 0 ? (
           <>
             <div className="w-full h-[20rem] flex-1 flex flex-col justify-center gap-y-5 md:w-1/2">
-              <h2 className="text-3xl md:text-4xl overflow-hidden">{title}</h2>
+              <h2 className="text-3xl md:text-4xl overflow-hidden text-limeYellow">
+                {title}
+              </h2>
               <p className="text-lg md:text-lg overflow-hidden">
                 {describtion}
               </p>
               <div className="w-full gap-x-5 flex justify-center md:justify-start">
-              
-              <Link
-                to={githubLink}
-                className="bg-light overflow-hidden text-dark w-28 grid place-content-center rounded-md py-1"
+                <Link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  to={githubLink}
+                  className="bg-inherit overflow-hidden w-28 grid place-content-center text-light border-2 border-limeYellow hover:bg-light hover:transition-all hover:text-dark rounded-sm py-1"
                 >
-                Github 
-              </Link>
-              <Link target="_blank" rel="noopener noreferrer"
-                to={liveSiteLink}
-                className="bg-light overflow-hidden text-dark w-28 grid place-content-center rounded-md py-1"
+                  Github
+                </Link>
+                <Link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  to={liveSiteLink}
+                  className="bg-dark overflow-hidden w-28 grid place-content-center rounded-md text-light border-2 border-limeYellow hover:bg-light hover:transition-all hover:text-dark"
                 >
-                • Live site 
-              </Link>
-
+                  • Live site
+                </Link>
               </div>
             </div>
 
@@ -152,23 +155,32 @@ function Slider({ title, data, idx, githubLink, describtion, liveSiteLink }) {
             </div>
 
             <div className="w-full h-[20rem] flex-1 flex flex-col text-center justify-center gap-y-5 md:w-1/2">
-              <h2 className="text-3xl md:text-4xl overflow-hidden">{title}</h2>
-              <p className="text-lg md:text-lg overflow-hidden">
-               {describtion}
+              <h2 className="text-3xl md:text-4xl overflow-hidden text-limeYellow">
+                {title}
+              </h2>
+              <p
+                className="text-lg md:text-lg overflow-hid
+              den"
+              >
+                {describtion}
               </p>
               <div className="w-full flex gap-x-5 justify-center">
                 <Link
+                  target="_blank"
+                  rel="noopener noreferrer"
                   to={githubLink}
-                  className="bg-ligh overflow-hidden bg-light text-dark w-28 grid place-content-center rounded-md py-1"
+                  className="bg-ligh overflow-hidden bg-dark w-28 grid place-content-center rounded-md py-1 text-light border-2 border-limeYellow hover:bg-light hover:transition-all hover:text-dark"
                 >
                   Github
                 </Link>
-                <Link target="_blank" rel="noopener noreferrer"
-                to={liveSiteLink}
-                className="bg-light overflow-hidden text-dark w-28 grid place-content-center rounded-md py-1"
+                <Link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  to={liveSiteLink}
+                  className="bg-dark overflow-hidden w-28 grid place-content-center rounded-md py-1 text-light border-2 border-limeYellow hover:bg-light hover:transition-all hover:text-dark"
                 >
-                • Live site 
-              </Link>
+                  • Live site
+                </Link>
               </div>
             </div>
           </>
@@ -179,17 +191,3 @@ function Slider({ title, data, idx, githubLink, describtion, liveSiteLink }) {
 }
 
 export default Slider;
-
-/*
-<div key={id} className="project w-full h-min py-5 md:p-0">
-    <div className="w-full px-10 text-center max-w-5xl mx-auto flex flex-col gap-5 justify-evenly items-center mb-5 md:flex-row md:text-start">
-        <div className="w-full flex flex-col gap-y-5 md:w-1/2">
-          <h2 className="text-3xl md:text-4xl">{title}</h2>
-          <p className="text-lg md:text-xl">{description}</p>
-        </div>
-        <div className="grid place-content-center w-full h-52 md:w-96 md:h-72">
-          <img src={image} alt="protoype" className="w-full h-full" />
-        </div>
-      </div>
-</div>
-*/

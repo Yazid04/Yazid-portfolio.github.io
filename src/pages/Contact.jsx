@@ -10,6 +10,7 @@ const Contact = () => {
       id: "00",
       title: "Contact using Gmail",
       contact: "yazidramadan04@gmail.com",
+      link: "mailto:yazidramadan04@gmail.com",
       copy: <FaRegCopy />,
       copied: false,
     },
@@ -17,33 +18,27 @@ const Contact = () => {
       id: "01",
       title: "Or using X (A.K.A Twitter)",
       contact: "https://twitter.com/Yazid__Mo",
+      link: "https://twitter.com/Yazid__Mo",
       copy: <FaRegCopy />,
       copied: false,
     },
     {
       id: "02",
-      title: "Or using Whatsapp",
-      contact: "+6281325885795",
-      copy: <FaRegCopy />,
-      copied: false,
-    },
-    {
-      id: "03",
-      title: "Or using Instagram",
-      contact: "https://www.instagram.com/yazid_mo_",
+      title: "LinkedIn",
+      contact: "https://www.linkedin.com/in/yazid-mohammed-9a45a1219/",
+      link: "https://www.linkedin.com/in/yazid-mohammed-9a45a1219/",
       copy: <FaRegCopy />,
       copied: false,
     },
   ];
   const [copiedContact, setCopiedContact] = useState(null);
 
-
   useEffect(() => {
     // Initialize clipboard.js after the component is mounted
-    const clipboard = new ClipboardJS('.clipbaord-icon .icon', {
+    const clipboard = new ClipboardJS(".clipbaord-icon .icon", {
       text: function () {
         return copiedContact; // The text you want to copy
-      }
+      },
     });
 
     // Cleanup when the component is unmounted
@@ -54,12 +49,14 @@ const Contact = () => {
 
   function showCopiedMsg(contact) {
     // Add the "show" class
-    const element = data.find((singleContact) => singleContact.contact === contact)
+    const element = data.find(
+      (singleContact) => singleContact.contact === contact
+    );
     setCopiedContact(element.contact);
 
     // Remove the "show" class after 2 seconds
     setTimeout(() => {
-     setCopiedContact(null);
+      setCopiedContact(null);
     }, 3000);
   }
 
@@ -73,7 +70,7 @@ const Contact = () => {
           </div>
           <div className="flex flex-col justify-evenly">
             {data.map((singleContact) => {
-              const { id, title, contact, copy } = singleContact;
+              const { id, title, contact, link, copy } = singleContact;
               return (
                 <div key={id} className="p-3">
                   <div className="flex items-center justify-between">
@@ -87,7 +84,14 @@ const Contact = () => {
                     </p>
                   </div>
                   <div className="px-2 py-3 bg-light text-dark flex w-full justify-between items-center">
-                    <h2>{contact}</h2>
+                    <a
+                      href={link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cursor-pointer text-blue-500 underline"
+                    >
+                      {contact}
+                    </a>
                     <div className="clipbaord-icon flex items-center gap-5">
                       <p
                         className={`hidden md:block text-[#226322] transition-all duration-[3000] ${
