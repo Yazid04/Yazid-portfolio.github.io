@@ -38,7 +38,7 @@ const Hero = () => {
 
       <div className="w-full h-[85%] mt-20 flex justify-between items-center max-w-6xl bg-dark xl:max-w-[1600px] px-10 lg:md-20">
         <div className="flex-1 flex flex-col justify-center">
-          <div className="mb-1">
+          <div className="mb-1 text-light">
             <h1 className="overflow-hidden text-6xl xl:text-9xl">
               Web <span className="text-limeYellow">Developer</span>
             </h1>
